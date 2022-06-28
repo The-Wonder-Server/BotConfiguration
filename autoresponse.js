@@ -1,6 +1,8 @@
 module.exports = [
     {
-        keywords: [["error code 123", "There was an error sending your chat message! Please try again in a few minutes. If the issue continues, try logging out and back in. (Error Code 123)"]],
+        keywords: [
+            ["error code 123"], ["There was an error sending your chat message! Please try again in a few minutes. If the issue continues, try logging out and back in. (Error Code 123)"]
+        ],
         response: {
             title: "Error: 123",
             footer: "",
