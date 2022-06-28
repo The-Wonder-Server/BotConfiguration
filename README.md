@@ -1,7 +1,9 @@
 Template:
 ```json
     {
-        keywords: [[""]],
+        keywords: [
+            [""], [""]
+        ],
         response: {
             title: "",
             footer: "",

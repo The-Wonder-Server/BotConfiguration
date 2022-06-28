@@ -14,7 +14,9 @@ module.exports = [
         },
     },
     {
-        keywords: [["help", "help me"]],
+        keywords: [
+            ["help"], ["help me"]
+        ],
         response: {
             title: "Please tell us what's going on!",
             footer: "",
@@ -24,7 +26,9 @@ module.exports = [
         },
     },
     {
-        keywords: [["ip", "whats the ip", "what's the ip"]],
+        keywords: [
+            ["ip"], ["whats the ip"], ["what's the ip"]
+        ],
         response: {
             title: "Hello, stranger!",
             footer: "",
@@ -34,7 +38,9 @@ module.exports = [
         },
     },
     {
-        keywords: [["website", "whats the website", "what's the website"]],
+        keywords: [
+            ["website"], ["what's the website"], ["whats the website"]
+        ],
         response: {
             title: "Hello, stranger!",
             footer: "",
@@ -44,7 +50,9 @@ module.exports = [
         },
     },
     {
-        keywords: [["rules", "what are the rules"]],
+        keywords: [
+            ["rules"], ["what are the rules"]
+        ],
         response: {
             title: "Hello, stranger!",
             footer: "",
