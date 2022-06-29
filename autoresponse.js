@@ -29,7 +29,7 @@ module.exports = [
     },
     {
         keywords: [
-            ["This server is still starting up. Try again in a few seconds!"]
+            ["This server is still starting up. Try again in a few seconds"]
         ],
         response: {
             title: "Server still starting",
