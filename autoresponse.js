@@ -15,6 +15,61 @@ module.exports = [
     },
     {
         keywords: [
+            ["Your account is not authorized on our network"], ["An error occurred while connecting you to this server. Please try again soon!"]
+        ],
+        response: {
+            title: "Network Error",
+            footer: "",
+            body: [
+                "Common Fixes:",
+                "1. Try reconnecting",
+                "2. Try restarting your client.",
+            ],
+        },
+    },
+    {
+        keywords: [
+            ["This server is still starting up. Try again in a few seconds!"]
+        ],
+        response: {
+            title: "Server still starting",
+            footer: "",
+            body: [
+                "The most likely cause for this error is:",
+                "The server is still starting up",
+            ],
+        },
+    },
+    {
+        keywords: [
+            ["error code 100"], ["There seems to be an error, please report this to a Staff Member! (Error Code 100)"]
+        ],
+        response: {
+            title: "Error: 100",
+            footer: "",
+            body: [
+                "The most likely causes for this error are:",
+                "1. Internal server error (unlikely).",
+                "2. You declined our resource pack.",
+                "3. Resource pack download failed."
+            ],
+        },
+    },
+    {
+    keywords: [
+        ["error code 101"], ["There seems to be an error, please report this to a Staff Member! (Error Code 101)"]
+    ],
+    response: {
+        title: "Error: 101",
+        footer: "",
+        body: [
+            "The most likely cause for this error is:",
+            "Internal server error (unlikely).",
+        ],
+    },
+},
+    {
+        keywords: [
             ["help"], ["help me"]
         ],
         response: {
