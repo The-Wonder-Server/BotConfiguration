@@ -112,7 +112,7 @@ module.exports = [
             title: "Hello, stranger!",
             footer: "",
             body: [
-                "Find the rules of our discord at: https://thewonderserver.com/rules/discord/",
+                "Find the rules of our discord at: https://thewonderserver.com/rules/discord",
             ],
         },
     },
