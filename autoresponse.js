@@ -1,7 +1,7 @@
 module.exports = [
     {
         keywords: [
-            ["error code 123"], ["There was an error sending your chat message! Please try again in a few minutes. If the issue continues, try logging out and back in. (Error Code 123)"]
+            ["error code 123"], ["error 123"], ["There was an error sending your chat message! Please try again in a few minutes. If the issue continues, try logging out and back in. (Error Code 123)"]
         ],
         response: {
             title: "Error: 123",
@@ -42,7 +42,7 @@ module.exports = [
     },
     {
         keywords: [
-            ["error code 100"], ["There seems to be an error, please report this to a Staff Member! (Error Code 100)"]
+            ["error code 100"], ["error 100"], ["There seems to be an error, please report this to a Staff Member! (Error Code 100)"]
         ],
         response: {
             title: "Error: 100",
@@ -57,7 +57,7 @@ module.exports = [
     },
     {
     keywords: [
-        ["error code 101"], ["There seems to be an error, please report this to a Staff Member! (Error Code 101)"]
+        ["error code 101"], ["error 101"], ["There seems to be an error, please report this to a Staff Member! (Error Code 101)"]
     ],
     response: {
         title: "Error: 101",
