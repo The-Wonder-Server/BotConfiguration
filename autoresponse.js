@@ -116,4 +116,16 @@ module.exports = [
             ],
         },
     },
+    {
+        keywords: [
+            ["!poll"]
+        ],
+        response: {
+            title: "New poll has been created!",
+            footer: "",
+            body: [
+                "Go to 🟢│polls  to vote!",
+            ],
+        },
+    },
 ]
