@@ -124,7 +124,7 @@ module.exports = [
             title: "New poll has been created!",
             footer: "",
             body: [
-                "Go to 🟢│polls  to vote!",
+                "Go to <#1003458268087197807> to vote!",
             ],
         },
     },
