@@ -128,4 +128,14 @@ module.exports = [
             ],
         },
     },
+    {
+      keywords: [
+            ["?staffroles"]
+        ],
+      response: {
+        title: "Staff Roles",
+        footer: "",
+        body: ["Imagineer: People who create and maintain rides/shows and everything park related.\n\nTrainee - Builder: Builds and maintains buildings on the server e.g: if a new ride is added to Magical Kingdom builders will research that attraction and calculate how big it is in minecraft.\n\nTrainee - Technician: Run the shows behind the scenes.\n\nDeveloper: Programmers that works on either Frontend or backend or both aka Fullstack.\n\nCoordinator: Staff Manager, handles Staff Applications, Absence, Reports, etc."],
+      },
+    },
 ]
